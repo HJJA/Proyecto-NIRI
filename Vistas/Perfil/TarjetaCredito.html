@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NIRI-Mi perfil</title>
+    <title>NIRI-Tarjeta de credito</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -112,9 +112,11 @@
                 </div>
                 <div class="card-body">
                   <ul class="nav nav-pills flex-column">
-                    <a href="perfil.html" class="nav-link active"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Datos personales</a>
+                    <a href="perfil.html" class="nav-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Datos personales</a>
 
                     <a href="Direccion.html" class="nav-link"><i class="fa fa-street-view" aria-hidden="true"></i> Configurar direccion</a>
+                    
+                    <a href="Direccion.html" class="nav-link active"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Tarjeta de credito</a>
 
                     <a href="contraseña.html" class="nav-link"><i class="fa fa-lock" aria-hidden="true"></i> Cambiar contraseña</a>
 
@@ -132,20 +134,20 @@
             <div class="col-lg-9">
               <div class="card sidebar-menu">
                 <div class="card-header text-center">
-                  <h3 class="h4 card-title">DATOS PERSONALES </h3>
+                  <h3 class="h4 card-title">DATOS DE TARJETA DE CREDITO </h3>
                 </div>
                 <div class="card-body">
                   <form>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="firstname">Nombres</label>
-                          <input id="nombres" type="text" class="form-control">
+                          <label for="firstname">Numero de tarjeta</label>
+                          <input id="nombres" type="number" class="form-control">
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="lastname">Apellidos</label>
+                          <label for="lastname">Nombre y apellido</label>
                           <input id="apellidos" type="text" class="form-control">
                         </div>
                       </div>
@@ -154,38 +156,37 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="company">Correo</label>
-                          <input id="correo" type="email" class="form-control">
+                          <label for="company">Fecha de expiracion</label>
+                          <input id="correo" type="text" class="form-control">
                         </div>
                       </div>
-
-                      <div class="col-md-6 ">
-                        <div class="form-group">
-                          <label for="company">Fecha de nacimento</label>
-                          <input id="fechaNacimiento" type="date" class="form-control">
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="street">Tipo de documento</label>
-                          
-                          <select name="" class="form-control">
-                            <option value="cc">CC</option>
-                            <option value="CE">CE</option>
-                            <option value="NIt">NIT</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="street">Numero de identificacion</label>
+                          <label for="street">Codigo de seguridad</label>
                           <input id="cc" type="number" class="form-control">
                         </div>
                       </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="company">Tipo de documento</label><br>
+                          <select class="form-control">
+                            <option value="cc">CC</option>
+                            <option value="cc">CE</option>
+                            <option value="cc">NIT</option>
+                          </select>
+                          
+                          
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-group">                          
+                          <label for="company">Numero de documento</label>
+                          <input id="fechaNacimiento" type="number" class="form-control">
+                        </div>
+                      </div>
+                      
                     </div>
                     <br><br>
                     <div class="col-md-12 text-center">
