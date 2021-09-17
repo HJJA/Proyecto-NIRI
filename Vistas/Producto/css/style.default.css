@@ -76,6 +76,10 @@ a, button {
   color: #61e77b;
 }
 
+#fechaIni{
+  width: 150px;
+  margin-left: 33%;
+}
 
 
 .img{
