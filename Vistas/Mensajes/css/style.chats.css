@@ -1,0 +1,155 @@
+.chats {
+  height: 75vh;
+  width: 27%;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-left: 40px;
+  border-right: 0.4px solid darkgrey;
+  overflow: auto;
+  float: left;
+}
+
+.chats::-webkit-scrollbar {
+  width: 7px;
+}
+.chats::-webkit-scrollbar-thumb {
+  background: #61e77b;
+  border-radius: 10px;
+}
+
+.chat {
+  width: 100%;
+  overflow: hidden;
+}
+
+.foto,
+.texto,
+.contador {
+  float: left;
+  padding-left: 10px;
+}
+
+.chat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.foto {
+  width: 15%;
+}
+
+.texto {
+  width: 69%;
+  padding-left: 20px;
+}
+
+.contador {
+  width: 15%;
+  padding-top: 10px;
+}
+
+hr {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.bloque2{
+  width: 66%;
+  float: left;
+}
+
+.bloque3{
+  width: 100%;
+  float: left;
+  
+}
+
+.contacto{
+  overflow: hidden;
+  margin-top: 20px;
+  color: #61e77b;
+  border-bottom: 0.4px solid darkgrey;
+}
+
+.user,.nombre,.accion{
+  margin-left: 20px;
+  float: left;
+}
+
+.user img{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  margin-bottom: 7px;
+}
+
+.nombre{
+  width: 82%;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+
+.accion{
+  padding-top: 17px;
+}
+
+.mensajes {
+  height: 57vh;
+  padding-top: 20px;
+  padding-left: 30px;
+  overflow: auto;
+  /* float: left; */
+  
+}
+
+.mensajes::-webkit-scrollbar {
+  width: 7px;
+}
+
+.mensajes::-webkit-scrollbar-thumb {
+  background: #2dc269;
+  border-radius: 10px;
+  
+}
+
+.post{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.destinatario{
+  width: 53%;
+  float: left;
+  padding: 14px;
+  background-color:#2dc269;
+  border-radius: 30px ;
+}
+
+.remitente{
+  width:  53%;
+  float: right;
+  padding: 14px;
+  background-color:#61e77b;
+  border-radius: 30px ;
+  margin-right: 10px;
+}
+
+.entradatexto input{
+  width: 81%;
+  height: 50px;
+  border-radius: 30px 0px 0px 30px;
+  margin: 10px 0px 12px 30px;
+  border: 1px solid #61e77b;
+  
+}
+
+.entradatexto button{
+  width: 15%;
+  height: 50px;
+  border-radius: 0px 30px 30px 0px;
+  background-color: #61e77b;
+  border: none;
+
+}
