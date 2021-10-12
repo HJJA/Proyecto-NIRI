@@ -36,10 +36,9 @@
 </head>
 
 <body>
-  <!-- navbar-->
+
   <header class="header mb-5">
     <!-- *** BARRA DE MENU ***-->
-
     <nav class="navbar navbar-expand-lg navbar fixed-top">
       <div class="container">
         <a href="indexLogin.html" class="navbar-brand home"><img src="img/NIRI Negro1.png" alt="Obaju logo"
@@ -55,31 +54,42 @@
             <span class="sr-only">NIRI</span><i class="fa fa-search"></i>
           </button>
         </div>
+
         <div id="navigation" class="collapse navbar-collapse">
+          <!-- BOTONES DE NAVEGACION -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a href="#tendencias" class="nav-link">Tendencias<b class="caret"></b></a>
+              <a href="Categorias/categorias.html" class="nav-link" id="botonnav2">CATEGORIAS<b class="caret"></b></a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#tendencias" class="nav-link" id="botonnav2">Tendencias<b class="caret"></b></a>
             </li>
             <li class="nav-item">
-              <a href="#como-funciona" class="nav-link">Como Funciona </a>
+              <a href="#como-funciona" class="nav-link" id="botonnav2">Como Funciona </a>
             </li>
             <li class="nav-item">
-              <a href="#usarnos" class="nav-link">Por que usarnos</a>
+              <a href="#usarnos" class="nav-link" id="botonnav2">Por que usarnos</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Para negocios<b class="caret"></b></a>
+              <a href="#" class="nav-link" id="botonnav2">Para negocios<b class="caret"></b></a>
             </li>
           </ul>
+          <!-- FIN BOTONES DE NAVEGACION -->
+
+          <!-- BOTON DE BUSQUEDA-->
           <div class="navbar-buttons d-flex justify-content-end">
-            <!-- BOTON DE BUSQUEDA-->
             <div id="search-not-mobile" class="navbar-collapse collapse">
               <a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline"><span
                   class="sr-only">NIRI</span><i class="fa fa-search"></i></a>
             </div>
           </div>
-          
-          <a href="Mensajes/Mensajes.html"><i style="color: #198754;" class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
-          
+          <!-- BOTON DE BUSQUEDA-->
+
+          <!-- BOTON DE MENSAJES -->
+          <a href="Mensajes/Mensajes.html"><i style="color: #198754;" class="fa fa-comments fa-2x"
+              aria-hidden="true"></i></a>
+          <!--FIN BOTON DE MENSAJES -->
 
           <!-- USUARIO -->
           <ul class="navbar-nav">
@@ -92,19 +102,20 @@
                       aria-hidden="true"></i> Datos personales</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="Perfil/Direccion.html" class="nav-link"><i class="fa fa-street-view" aria-hidden="true"></i> Configurar direccion</a>
+                  <a href="Perfil/Direccion.html" class="nav-link"><i class="fa fa-street-view" aria-hidden="true"></i>
+                    Configurar direccion</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="Perfil/contraseña.html" class="nav-link"><i class="fa fa-lock"
-                      aria-hidden="true"></i>Cambiar contraseña</a>
+                  <a href="Perfil/contraseña.html" class="nav-link"><i class="fa fa-lock" aria-hidden="true"></i>Cambiar
+                    contraseña</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="Perfil/MisAlquileres.html" class="nav-link"><i class="fa fa-history"
-                      aria-hidden="true"></i> Mis alquileres</a>
+                  <a href="Perfil/MisAlquileres.html" class="nav-link"><i class="fa fa-history" aria-hidden="true"></i>
+                    Mis alquileres</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="Perfil/MisProductos.html" class="nav-link"><i class="fa fa-list"
-                      aria-hidden="true"></i> Mis productos</a>
+                  <a href="Perfil/MisProductos.html" class="nav-link"><i class="fa fa-list" aria-hidden="true"></i> Mis
+                    productos</a>
                 </li>
                 <li class="dropdown-item">
                   <a href="../index.html" class="nav-link"><i class="fa fa-sign-out"></i> Cerrar sesion</a>
@@ -112,6 +123,8 @@
               </ul>
             </li>
           </ul>
+          <!--FIN USUARIO -->
+
         </div>
       </div>
     </nav>
@@ -131,13 +144,17 @@
         </form>
       </div>
     </div>
+    <!--FIN BARRA DE BUSQUEDA -->
+
   </header>
 
   <!-- CARRUSEL DE INFORMACION -->
   <div id="all">
     <div id="content">
+      <!-- CARRUSEL DE INFORMACION -->
       <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- CONFIGURACION DE NUMERO DE VISTAS -->
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -148,7 +165,9 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
           </div>
+          <!-- FIN CONFIGURACION DE NUMERO DE VISTAS -->
           <div class="carousel-inner">
+            <!-- PRIMERA IMAGEN -->
             <div class="carousel-item active">
               <img src="img/NIRI Negro.png" class="d-block w-100" alt="slider1" />
               <div class="carousel-caption d-none d-md-block">
@@ -159,16 +178,27 @@
                 <a href="#" class="btn btn-primary">ir</a>
               </div>
             </div>
+            <!-- FIN PRIMERA IMAGEN -->
+
+            <!-- SEGUNDA IMAGEN -->
             <div class="carousel-item">
               <img src="img/NIRI Verde.png" class="d-block w-100" alt="slider2" />
             </div>
+            <!-- FIN SEGUNDA IMAGEN -->
+
+            <!-- TERCERA IMAGEN -->
             <div class="carousel-item">
               <img src="img/NIRI Negro1.png" class="d-block w-100" alt="slider3" />
             </div>
+            <!-- FIN TERCERA IMAGEN -->
+
+            <!-- CUARTA IMAGEN -->
             <div class="carousel-item">
               <img src="img/slider3.jpg" class="d-block w-100" alt="slider4" />
             </div>
+            <!-- FIN CUARTA IMAGEN -->
           </div>
+          <!-- BOTONES DE TRANSICION  -->
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -179,6 +209,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+          <!-- FIN BOTONES DE TRANSICION  -->
         </div>
       </div>
       <br /><br /><br />
@@ -190,6 +221,7 @@
       </div>
       <br /><br />
       <div class="container">
+        <!-- CATEGORIAS VISTA ESCRITORIO -->
         <div class="d-none d-md-inline-block">
           <div class="categorias">
             <div>
@@ -224,6 +256,9 @@
             </div>
           </div>
         </div>
+        <!--FIN CATEGORIAS VISTA ESCRITORIO -->
+
+        <!-- CATEGORIAS VISTA SMARTPHONE -->
         <div class="d-inline-block d-md-none">
           <div class="categorias2">
             <div>
@@ -258,13 +293,15 @@
             </div>
           </div>
         </div>
+        <!--FIN CATEGORIAS VISTA SMARTPHONE -->
       </div>
+      <!--FIN CATEGORIAS -->
+
+      <!--TENDENCIAS-->
       <div id="tendencias"></div>
       <br><br><br><br>
 
-      <!--TENDENCIAS-->
-      
-      <div class="box py-3 text-center" >
+      <div class="box py-3 text-center">
         <a href="Categorias/tendencias.html">
           <h3 class="mb-0">
             <h2 class="mb-0">TENDENCIAS</h2>
@@ -275,17 +312,17 @@
       <div id="hot">
         <div class="container">
           <div class="product-slider owl-carousel owl-theme">
+
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -314,18 +351,18 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
 
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -354,18 +391,18 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
 
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product3.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product3.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product3_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product3_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -379,17 +416,18 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
+
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product2_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -408,17 +446,18 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
+
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product1.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product1.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product1_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product1_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -437,17 +476,18 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
+
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product3.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product3.jpg" alt="" class="img-fluid" /></a>
                     </div>
                     <div class="back">
-                      <a href="Producto/DetalleLogin.html"><img src="img/product3_2.jpg" alt=""
-                          class="img-fluid" /></a>
+                      <a href="Producto/DetalleLogin.html"><img src="img/product3_2.jpg" alt="" class="img-fluid" /></a>
                     </div>
                   </div>
                 </div>
@@ -458,18 +498,26 @@
                   <p class="price"><del></del>$143.00</p>
                 </div>
               </div>
+              <!-- FIN PROCUTO -->
+
             </div>
           </div>
         </div>
       </div>
 
+      <!--FIN TENDENCIAS-->
+
+
+      <!--COMO FUNCIONA-->
+
       <div id="como-funciona"></div>
       <br><br><br>
 
-      <!--COMO FUNCIONA-->
-      <div class="funciones" >
+      <div class="funciones">
         <h2 class="division">COMO FUNCIONA</h2>
         <div class="container">
+
+          <!--COMO FUNCIONA VISTA ESCRITORIO-->
           <div class="d-none d-md-inline-block">
             <div class="Funcion">
               <i class="fas fa-search fa-7x"></i>
@@ -501,7 +549,9 @@
               </p>
             </div>
           </div>
+          <!--FIN COMO FUNCIONA VISTA ESCRITORIO-->
 
+          <!--COMO FUNCIONA VISTA SMARTPHONE-->
           <div class="d-inline-block d-md-none">
             <div class="Funcion2">
               <i class="fas fa-search fa-7x"></i>
@@ -533,6 +583,7 @@
               </p>
             </div>
           </div>
+          <!--FIN COMO FUNCIONA VISTA SMARTPHONE-->
         </div>
       </div>
 
@@ -551,6 +602,7 @@
       <div class="funciones">
         <h2 class="division">¿POR QUE USARNOS?</h2>
         <div class="container">
+          <!-- ¿POR QUE USARNOS? VISTA ESCRITORIO-->
           <div class="d-none d-md-inline-block">
             <div class="linea">
               <div class="Funcion">
@@ -587,7 +639,9 @@
               </div>
             </div>
           </div>
+          <!--FIN ¿POR QUE USARNOS? VISTA ESCRITORIO-->
 
+          <!-- ¿POR QUE USARNOS? VISTA SMARTPHONE-->
           <div class="d-inline-block d-md-none">
             <div class="Funcion2">
               <i class="fas fa-laptop-medical fa-7x"></i>
@@ -619,42 +673,17 @@
               <h3> 5. CONTRIBUYES AL MEDIO AMBIENTE REDUCIENDO TU IMPACTO </h3>
             </div>
           </div>
+          <!--FIN ¿POR QUE USARNOS? VISTA SMARTPHONE-->
           <br>
-
-
         </div>
       </div>
     </div>
     <br><br><br>
 
-    <!-- VIDEO -->
-    <!-- <div class="container">
-          <iframe
-            width="100%"
-            height="615"
-            src="https://www.youtube-nocookie.com/embed/sDMxQF18yvA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="d-none d-md-inline-block"
-          ></iframe
-          ><iframe
-            width="100%"
-            height="345"
-            src="https://www.youtube-nocookie.com/embed/sDMxQF18yvA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="d-inline-block d-md-none"
-          ></iframe>
-        </div>
-      </div>
-    </div> -->
+
     <br /><br /><br />
-   
-    
+
+
     <!--FOOTER -->
     <div id="footer">
       <div class="container">
@@ -688,7 +717,7 @@
               <strong>NIRI</strong><br />13/25 New Avenue<br />New
               Heaven<br />45Y 73J<br />Colombia<br /><strong>Santa Marta</strong>
             </p>
-            
+
             <hr class="d-block d-md-none" />
           </div>
 
@@ -740,7 +769,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- JavaScript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

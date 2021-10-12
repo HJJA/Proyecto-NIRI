@@ -38,43 +38,10 @@
 </head>
 
 <body>
-  <!-- navbar-->
-  <header class="header mb-5">
-    <!-- LOGIN EMERGENTE  -->
-    <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
-      <br><br><br><br><br><br><br><br><br>
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">INICIAR SESION</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close" class="close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form action="#" method="post">
-              <div class="form-group">
-                <input id="email-modal" type="text" placeholder="email" class="form-control" />
-              </div>
-              <div class="form-group">
-                <input id="password-modal" type="password" placeholder="password" class="form-control" />
-              </div>
-              <p class="text-center">
-                <button class="btn btn-primary">
-                  <i class="fa fa-sign-in"></i> Iniciar
-                </button>
-              </p>
-            </form>
-            <p class="text-center text-muted">Todavía no estas registrado?</p>
-            <p class="text-center text-muted">
-              <a href="../Perfil/register.html"><strong>Regístrate ahora</strong></a>!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- *** BARRA DE MENU ***-->
 
+  <header class="header mb-5">
+
+    <!-- *** BARRA DE MENU ***-->
     <nav class="navbar navbar-expand-lg navbar fixed-top">
       <div class="container">
         <a href="../indexLogin.html" class="navbar-brand home"><img src="../img/NIRI Negro1.png" alt="Obaju logo"
@@ -91,7 +58,7 @@
           </button>
         </div>
         <div id="navigation" class="collapse navbar-collapse">
-
+          <!-- opciones de menu -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a href="../Categorias/smartphones.html" class="nav-link">smartphones<b class="caret"></b></a>
@@ -141,39 +108,50 @@
             </li>
 
           </ul>
+          <!-- fin opciones de menu -->
+
+          <!-- BOTON DE BUSQUEDA-->
           <div class="navbar-buttons d-flex justify-content-end">
-            <!-- BOTON DE BUSQUEDA-->
+
             <div id="search-not-mobile" class="navbar-collapse collapse">
               <a href="#inicio">
                 <a href="#search" data-toggle="collapse" class="btn navbar-btn btn-primary d-none d-lg-inline"><i
                     class="fa fa-search"></i></a></a>
             </div>
           </div>
+          <!-- FIN BOTON DE BUSQUEDA-->
 
-          <a href="../Mensajes/Mensajes.html"><i style="color: #198754;" class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+          <!-- boton de mensaje -->
+          <a href="../Mensajes/Mensajes.html"><i style="color: #198754;" class="fa fa-comments fa-2x"
+              aria-hidden="true"></i></a>
+          <!--fin boton de mensaje -->
 
-          
 
-           <!-- Usuario -->
-           <ul class="navbar-nav">
-            <li  class="nav-item dropdown">
+          <!-- Usuario -->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
               <a href="../Perfil/perfil.html"><img src="../img/NIRI Logo.png" alt=""> Ejemplo Usuario NIRI</a>
               <ul class="dropdown-menu megamenu">
-                
+
                 <li class="dropdown-item">
-                  <a href="../Perfil/perfil.html" class="nav-link active"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Datos personales</a>
+                  <a href="../Perfil/perfil.html" class="nav-link active"><i class="fa fa-user-circle-o"
+                      aria-hidden="true"></i> Datos personales</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="../Perfil/Direccion.html" class="nav-link"><i class="fa fa-street-view" aria-hidden="true"></i> Configurar direccion</a>
+                  <a href="../Perfil/Direccion.html" class="nav-link"><i class="fa fa-street-view"
+                      aria-hidden="true"></i> Configurar direccion</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="../Perfil/contraseña.html" class="nav-link"><i class="fa fa-lock" aria-hidden="true"></i>Cambiar contraseña</a>
+                  <a href="../Perfil/contraseña.html" class="nav-link"><i class="fa fa-lock"
+                      aria-hidden="true"></i>Cambiar contraseña</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="../Perfil/MisAlquileres.html" class="nav-link"><i class="fa fa-history" aria-hidden="true"></i> Mis alquileres</a>
+                  <a href="../Perfil/MisAlquileres.html" class="nav-link"><i class="fa fa-history"
+                      aria-hidden="true"></i> Mis alquileres</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="../Perfil/MisProductos.html" class="nav-link"><i class="fa fa-list" aria-hidden="true"></i> Mis productos</a>
+                  <a href="../Perfil/MisProductos.html" class="nav-link"><i class="fa fa-list" aria-hidden="true"></i>
+                    Mis productos</a>
                 </li>
                 <li class="dropdown-item">
                   <a href="../../index.html" class="nav-link"><i class="fa fa-sign-out"></i> Cerrar sesion</a>
@@ -181,10 +159,12 @@
               </ul>
             </li>
           </ul>
+          <!--Fin Usuario -->
         </div>
       </div>
       <br />
     </nav>
+    <!-- *** FIN BARRA DE MENU ***-->
 
     <div id="inicio"><br /><br /><br /><br /></div>
     <!-- BARRA DE BUSQUEDA -->
@@ -209,6 +189,7 @@
     <div id="content">
       <div class="container">
         <div class="row">
+
           <!-- Navar de accion  -->
           <div class="col-lg-12">
             <!-- breadcrumb-->
@@ -219,18 +200,27 @@
               </ol>
             </nav>
           </div>
-          <!-- DESCRIPCION DE PRODICTO  -->
+          <!-- Navar de accion  -->
+
           <div class="col-lg-2 order-2 order-lg-1">
           </div>
+
+
           <div class="col-lg-9 order-1 order-lg-2">
+            <!-- DESCRIPCION DE PRODICTO  -->
             <div id="productMain" class="row">
+              <!-- Imagenes -->
               <div class="col-md-6">
                 <div data-slider-id="1" class="owl-carousel shop-detail-carousel">
                   <div class="item"> <img src="../img/detailbig1.jpg" alt="" class="img-fluid"></div>
                   <div class="item"> <img src="../img/detailbig2.jpg" alt="" class="img-fluid"></div>
                   <div class="item"> <img src="../img/detailbig3.jpg" alt="" class="img-fluid"></div>
+                  <div class="item"> <img src="../img/detailbig3.jpg" alt="" class="img-fluid"></div>
                 </div>
               </div>
+              <!--Fin Imagenes -->
+
+              <!-- INFORMACION -->
               <div class="col-md-6">
                 <div class="box">
                   <h1 class="text-center">EJEMPLO DE PRODUCTO</h1>
@@ -238,23 +228,30 @@
                   <p class="price">Cantidad disponible: 4</p>
                   <p class="price">$124.00 Por dia.</p>
                   <p class="text-center buttons">
-                    <!-- Button trigger modal -->
+                    <!-- Boton de alquilar -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                       data-bs-target="#staticBackdrop">
                       <i class="fa fa-shopping-cart"></i> Alquilar
                     </button>
+                    <!--fin Boton de mensajes -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mensaje">
+                      <i class="fa fa-comments" aria-hidden="true"></i> Mensajes
+                    </button>
+                    <!--fin Boton de mensajes -->
                   </p>
                 </div>
+                <!-- botnes de imagenes -->
                 <div data-slider-id="1" class="owl-thumbs">
-                  <button class="owl-thumb-item"><img src="../img/detailsquare.jpg" alt=""
-                      class="img-fluid"></button>
-                  <button class="owl-thumb-item"><img src="../img/detailsquare2.jpg" alt=""
-                      class="img-fluid"></button>
-                  <button class="owl-thumb-item"><img src="../img/detailsquare3.jpg" alt=""
-                      class="img-fluid"></button>
+                  <button class="owl-thumb-item"><img src="../img/detailsquare.jpg" alt="" class="img-fluid"></button>
+                  <button class="owl-thumb-item"><img src="../img/detailsquare2.jpg" alt="" class="img-fluid"></button>
+                  <button class="owl-thumb-item"><img src="../img/detailsquare3.jpg" alt="" class="img-fluid"></button>
+                  <button class="owl-thumb-item"><img src="../img/detailsquare3.jpg" alt="" class="img-fluid"></button>
                 </div>
+                <!-- fin botnes de imagenes -->
               </div>
+              <!-- INFORMACION -->
             </div>
+            <!-- FIN DESCRIPCION DE PRODICTO  -->
 
             <!-- Modal alquilar  -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -271,7 +268,7 @@
                       <br>
                       <p class="text-center">
                         Fecha y hora de inicio: <br><br>
-                        <input name="fechainicio" type="date" class="form-control text-center" id="fechaIni" >5
+                        <input name="fechainicio" type="date" class="form-control text-center" id="fechaIni">5
                         <br>
                         Dias a alquilar :
                         <input name="fechafin" pattern="[0-9]" type="number" value="0" class="form-control">
@@ -287,6 +284,36 @@
                 </div>
               </div>
             </div>
+            <!--fin Modal alquilar  -->
+
+            <!-- Modal mensajes  -->
+            <div class="modal fade" id="mensaje" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h5 class="modal-title text-center" id="staticBackdropLabel">ALQUILAR PRODUCTO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <form class="alquiler" action="">
+                      <br>
+                      Menasaje :
+                      <input name="text" type="text" class="form-control">
+                      <br>
+                      <button type="button" class="btn btn-primary">
+                        Enviar
+                      </button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fin Modal mensajes  -->
 
 
 
@@ -297,10 +324,10 @@
             </div>
             <div class="box same-height text-center">
               <div class="row same-height-row">
-
                 <div class="container">
                   <div class="product-slider owl-carousel owl-theme">
 
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -321,6 +348,32 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
+
+                    <!-- profucto -->
+                    <div class="product">
+                      <div class="flip-container">
+                        <div class="flipper">
+                          <div class="front">
+                            <a href="../Producto/Detalle.html"><img src="../img/product3.jpg" alt=""
+                                class="img-fluid" /></a>
+                          </div>
+                          <div class="back">
+                            <a href="../Producto/Detalle.html"><img src="../img/product3_2.jpg" alt=""
+                                class="img-fluid" /></a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="../Producto/Detalle.html" class="invisible"><img src="../img/product3.jpg" alt=""
+                          class="img-fluid" /></a>
+                      <div class="text">
+                        <h3><a href="../Producto/Detalle.html">Black Blouse Versace</a></h3>
+                        <p class="price"><del></del>$143.00</p>
+                      </div>
+                    </div>
+                    <!--fin profucto -->
+
+                    <!-- profucto -->
 
                     <div class="product">
                       <div class="flip-container">
@@ -342,29 +395,9 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
-                    <div class="product">
-                      <div class="flip-container">
-                        <div class="flipper">
-                          <div class="front">
-                            <a href="../Producto/Detalle.html"><img src="../img/product3.jpg" alt=""
-                                class="img-fluid" /></a>
-                          </div>
-                          <div class="back">
-                            <a href="../Producto/Detalle.html"><img src="../img/product3_2.jpg" alt=""
-                                class="img-fluid" /></a>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="../Producto/Detalle.html" class="invisible"><img src="../img/product3.jpg" alt=""
-                          class="img-fluid" /></a>
-                      <div class="text">
-                        <h3><a href="../Producto/Detalle.html">Black Blouse Versace</a></h3>
-                        <p class="price"><del></del>$143.00</p>
-                      </div>
-
-                    </div>
-
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -385,7 +418,9 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -406,7 +441,9 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -427,7 +464,9 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -448,29 +487,9 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
-                    <div class="product">
-                      <div class="flip-container">
-                        <div class="flipper">
-                          <div class="front">
-                            <a href="../Producto/Detalle.html"><img src="../img/product3.jpg" alt=""
-                                class="img-fluid" /></a>
-                          </div>
-                          <div class="back">
-                            <a href="../Producto/Detalle.html"><img src="../img/product3_2.jpg" alt=""
-                                class="img-fluid" /></a>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="../Producto/Detalle.html" class="invisible"><img src="../img/product3.jpg" alt=""
-                          class="img-fluid" /></a>
-                      <div class="text">
-                        <h3><a href="../Producto/Detalle.html">Black Blouse Versace</a></h3>
-                        <p class="price"><del></del>$143.00</p>
-                      </div>
-
-                    </div>
-
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -491,7 +510,32 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
+                    <!-- profucto -->
+                    <div class="product">
+                      <div class="flip-container">
+                        <div class="flipper">
+                          <div class="front">
+                            <a href="../Producto/Detalle.html"><img src="../img/product3.jpg" alt=""
+                                class="img-fluid" /></a>
+                          </div>
+                          <div class="back">
+                            <a href="../Producto/Detalle.html"><img src="../img/product3_2.jpg" alt=""
+                                class="img-fluid" /></a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="../Producto/Detalle.html" class="invisible"><img src="../img/product3.jpg" alt=""
+                          class="img-fluid" /></a>
+                      <div class="text">
+                        <h3><a href="../Producto/Detalle.html">Black Blouse Versace</a></h3>
+                        <p class="price"><del></del>$143.00</p>
+                      </div>
+                    </div>
+                    <!--fin profucto -->
+
+                    <!-- profucto -->
                     <div class="product">
                       <div class="flip-container">
                         <div class="flipper">
@@ -512,25 +556,20 @@
                         <p class="price"><del></del>$143.00</p>
                       </div>
                     </div>
+                    <!--fin profucto -->
 
                   </div>
                 </div>
-
-
-
-
-
-
               </div>
-              <!-- dddd -->
             </div>
+            <!--FIN OTROS PRODUCTO -->
           </div>
-          <!-- /.col-md-9-->
+
         </div>
       </div>
     </div>
   </div>
-  
+
   <!--FOOTER -->
   <div id="footer">
     <div class="container">
@@ -564,7 +603,7 @@
             <strong>NIRI</strong><br />13/25 New Avenue<br />New
             Heaven<br />45Y 73J<br />Colombia<br /><strong>Santa Marta</strong>
           </p>
-          
+
           <hr class="d-block d-md-none" />
         </div>
 
@@ -588,8 +627,7 @@
             <a href="#" class="facebook external"><i class="fa fa-facebook"></i></a><a href="#"
               class="twitter external"><i class="fa fa-twitter"></i></a><a href="#" class="instagram external"><i
                 class="fa fa-instagram"></i></a><a href="#" class="gplus external"><i
-                class="fa fa-google-plus"></i></a><a href="#" class="email external"><i
-                class="fa fa-envelope"></i></a>
+                class="fa fa-google-plus"></i></a><a href="#" class="email external"><i class="fa fa-envelope"></i></a>
           </p>
         </div>
 
@@ -609,14 +647,13 @@
           <p class="text-center text-lg-left">©2021 NIRI</p>
         </div>
         <div class="col-lg-6">
-          <p class="text-center text-lg-right">Template design by <a
-              href="https://bootstrapious.com/">Bootstrapious</a>
+          <p class="text-center text-lg-right">Template design by <a href="https://bootstrapious.com/">Bootstrapious</a>
           </p>
         </div>
       </div>
     </div>
   </div>
-  
+
   <!-- JavaScript files-->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

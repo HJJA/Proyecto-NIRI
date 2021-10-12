@@ -65,8 +65,11 @@
         </div>
       </div>
     </div>
-    <!-- *** BARRA DE MENU ***-->
+    <!-- FIN LOGUIN EMERGENTE -->
 
+
+
+    <!-- *** BARRA DE MENU ***-->
     <nav class="navbar navbar-expand-lg navbar fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand home"><img src="Vistas/img/NIRI Negro1.png" alt="Obaju logo"
@@ -82,44 +85,56 @@
             <span class="sr-only">NIRI</span><i class="fa fa-search"></i>
           </button>
         </div>
+
+        <!-- BOTONES DE NAVEGACION -->
         <div id="navigation" class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a href="#tendencias" class="nav-link">Tendencias<b class="caret"></b></a>
+              <a href="Vistas/Categorias/categorias.html" class="nav-link" id="botonnav">CATEGORIAS<b
+                  class="caret"></b></a>
             </li>
             <li class="nav-item">
-              <a href="#como-funciona" class="nav-link">Como Funciona </a>
+              <a href="#tendencias" class="nav-link" id="botonnav">Tendencias<b class="caret"></b></a>
             </li>
             <li class="nav-item">
-              <a href="#usarnos" class="nav-link">Por que usarnos</a>
+              <a href="#como-funciona" class="nav-link" id="botonnav">Como Funciona </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Para negocios<b class="caret"></b></a>
+              <a href="#usarnos" class="nav-link" id="botonnav">Por que usarnos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="botonnav">Para negocios<b class="caret"></b></a>
             </li>
           </ul>
+          <!-- FIN BOTONES DE NAVEGACION -->
+
+          <!-- BOTON DE BUSQUEDA-->
           <div class="navbar-buttons d-flex justify-content-end">
-            <!-- BOTON DE BUSQUEDA-->
             <div id="search-not-mobile" class="navbar-collapse collapse">
               <a href="#inicio">
                 <a href="#search" data-toggle="collapse" class="btn navbar-btn btn-primary d-none d-lg-inline"><i
                     class="fa fa-search"></i></a></a>
             </div>
           </div>
-          <!-- botones de sesion -->
+          <!-- FIN BOTON BUSQUEDA -->
+
+          <!-- BOTONES REGISTAR E INICIO SESION -->
           <li class="list-inline-item">
             <a href="Vistas/Perfil/register.html">Crea tu cuenta</a>
           </li> &nbsp;&nbsp;
           <li class="list-inline-item">
             <a href="#" data-toggle="modal" data-target="#login-modal">Inicia sesion</a>
           </li>
+          <!-- FIN BOTONES REGISTAR E INICIO SESION  -->
+
 
         </div>
       </div>
       <br />
     </nav>
 
-    <div id="inicio"><br /><br /><br /><br /></div>
     <!-- BARRA DE BUSQUEDA -->
+    <div id="inicio"><br /><br /><br /><br /></div>
     <div id="search" class="collapse">
       <div class="container">
         <form role="search" class="ml-auto">
@@ -134,6 +149,7 @@
         </form>
       </div>
     </div>
+    <!-- FIN BARRA DE BUSQUEDA -->
   </header>
 
 
@@ -141,7 +157,9 @@
     <div id="content">
       <!-- CARRUSEL DE INFORMACION -->
       <div class="container">
+
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- CONFIGURACION DE NUMERO DE VISTAS -->
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -152,7 +170,10 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
           </div>
+          <!-- FIN CONFIGURACION DE NUMERO DE VISTAS -->
+
           <div class="carousel-inner">
+            <!-- PRIMERA IMAGEN -->
             <div class="carousel-item active">
               <img src="Vistas/img/NIRI Negro.png" class="d-block w-100" alt="slider1" />
               <div class="carousel-caption d-none d-md-block">
@@ -163,16 +184,30 @@
                 <a href="vistas/indexLogin.html" class="btn btn-primary">ir</a>
               </div>
             </div>
+            <!-- FIN PRIMERA IMAGEN -->
+
+            <!-- SEGUNDA IMAGEN -->
             <div class="carousel-item">
               <img src="Vistas/img/NIRI Verde.png" class="d-block w-100" alt="slider2" />
             </div>
+
+            <!-- FIN SEGUNDA IMAGEN -->
+
+            <!-- TERCERA IMAGEN -->
             <div class="carousel-item">
               <img src="Vistas/img/NIRI Negro1.png" class="d-block w-100" alt="slider3" />
             </div>
+            <!-- FIN TERCERA IMAGEN -->
+
+            <!-- CUARTA IMAGEN -->
             <div class="carousel-item">
               <img src="Vistas/img/slider3.jpg" class="d-block w-100" alt="slider4" />
             </div>
+            <!-- FIN CUARTA IMAGEN -->
           </div>
+
+          <!-- BOTONES DE TRANSICION  -->
+
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -183,8 +218,13 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+          <!-- FIN BOTONES DE TRANSICION  -->
+
         </div>
       </div>
+      <!-- FIN CARRUSEL DE INFORMACION -->
+
+
       <br><br><br><br>
 
       <!--CATEGORIAS -->
@@ -195,6 +235,7 @@
       </div>
       <br /><br />
       <div class="container">
+        <!-- CATEGORIAS VISTA ESCRITORIO -->
         <div class="d-none d-md-inline-block">
           <div class="categorias">
             <div>
@@ -229,6 +270,9 @@
             </div>
           </div>
         </div>
+        <!--FIN CATEGORIAS VISTA ESCRITORIO -->
+
+        <!-- CATEGORIAS VISTA SMARTPHONE -->
         <div class="d-inline-block d-md-none">
           <div class="categorias2">
             <div>
@@ -263,7 +307,9 @@
             </div>
           </div>
         </div>
+        <!--FIN CATEGORIAS VISTA SMARTPHONE -->
       </div>
+      <!--FIN CATEGORIAS -->
 
       <!--TENDENCIAS-->
       <div id="tendencias"></div>
@@ -271,21 +317,23 @@
 
       <div class="box py-3 text-center">
         <a href="Vistas/Categorias/tendencias.html">
-
           <h2 class="mb-0">TENDENCIAS</h2>
-
         </a>
       </div>
+
       <br /><br />
       <div id="hot">
         <div class="container">
           <div class="product-slider owl-carousel owl-theme">
+
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2_2.jpg" alt=""
@@ -318,13 +366,16 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
 
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2_2.jpg" alt=""
@@ -357,13 +408,15 @@
               </div>
               <!-- /.product-->
             </div>
-
+            <!-- FIN PROCUTO -->
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3_2.jpg" alt=""
@@ -381,12 +434,15 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product2_2.jpg" alt=""
@@ -409,12 +465,15 @@
               </div>
               <!-- /.product-->
             </div>
+            <!-- FIN PROCUTO -->
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product1.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product1.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product1_2.jpg" alt=""
@@ -437,12 +496,16 @@
               </div>
               <!-- /.product-->
             </div>
+
+            <!-- FIN PROCUTO -->
+            <!-- PROCUTO -->
             <div class="item">
               <div class="product">
                 <div class="flip-container">
                   <div class="flipper">
                     <div class="front">
-                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3.jpg" alt="" class="img-fluid" /></a>
+                      <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3.jpg" alt=""
+                          class="img-fluid" /></a>
                     </div>
                     <div class="back">
                       <a href="vistas/Producto/Detalle.html"><img src="Vistas/img/product3_2.jpg" alt=""
@@ -458,17 +521,23 @@
                 </div>
               </div>
             </div>
+            <!-- FIN PROCUTO -->
+
           </div>
         </div>
       </div>
 
-      <div id="como-funciona"></div>
-      <br><br><br>
+      <!--FIN TENDENCIAS-->
+
 
       <!--COMO FUNCIONA-->
+      <div id="como-funciona"></div>
+      <br><br><br>
       <div class="funciones">
         <h2 class="division">COMO FUNCIONA</h2>
         <div class="container">
+
+          <!--COMO FUNCIONA VISTA ESCRITORIO-->
           <div class="d-none d-md-inline-block">
             <div class="Funcion">
               <i class="fas fa-search fa-7x"></i>
@@ -500,7 +569,9 @@
               </p>
             </div>
           </div>
+          <!--FIN COMO FUNCIONA VISTA ESCRITORIO-->
 
+          <!--COMO FUNCIONA VISTA SMARTPHONE-->
           <div class="d-inline-block d-md-none">
             <div class="Funcion2">
               <i class="fas fa-search fa-7x"></i>
@@ -532,6 +603,7 @@
               </p>
             </div>
           </div>
+          <!--FIN COMO FUNCIONA VISTA SMARTPHONE-->
         </div>
       </div>
 
@@ -553,6 +625,8 @@
       <div class="funciones">
         <h2 class="division">¿POR QUE USARNOS?</h2>
         <div class="container">
+
+          <!-- ¿POR QUE USARNOS? VISTA ESCRITORIO-->
           <div class="d-none d-md-inline-block">
             <div class="linea">
               <div class="Funcion">
@@ -589,6 +663,9 @@
               </div>
             </div>
           </div>
+          <!--FIN ¿POR QUE USARNOS? VISTA ESCRITORIO-->
+
+          <!-- ¿POR QUE USARNOS? VISTA SMARTPHONE-->
 
           <div class="d-inline-block d-md-none">
             <div class="Funcion2">
@@ -621,37 +698,10 @@
               <h3> 5. CONTRIBUYES AL MEDIO AMBIENTE REDUCIENDO TU IMPACTO </h3>
             </div>
           </div>
+          <!--FIN ¿POR QUE USARNOS? VISTA SMARTPHONE-->
         </div>
       </div>
-      <!-- VIDEO -->
-      <!-- <div class="box py-3 text-center" id="usarnos">
-          <a href="#"
-            ><h3 class="mb-0"><h2 class="mb-0">SOBRE NOSOTROS</h2></h3></a>
-        </div>
-        <div class="container">
-          <iframe
-            width="100%"
-            height="615"
-            src="https://www.youtube-nocookie.com/embed/sDMxQF18yvA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="d-none d-md-inline-block"
-          ></iframe
-          ><iframe
-            width="100%"
-            height="345"
-            src="https://www.youtube-nocookie.com/embed/sDMxQF18yvA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="d-inline-block d-md-none"
-          ></iframe>
-        </div>
-      </div>
-    </div> -->
+
       <br /><br /><br />
 
 

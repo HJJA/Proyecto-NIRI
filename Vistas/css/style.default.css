@@ -24,6 +24,14 @@ a, button {
   outline: none;
 }
 
+#botonnav{
+  font-size: 12.5px;
+}
+
+#botonnav2{
+  font-size: 12px;
+}
+
 .carousel-caption{
   color: #e60000;
 }
